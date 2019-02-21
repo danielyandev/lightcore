@@ -1,0 +1,25 @@
+{
+  "name": "danielyandev/lightcore",
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Ruben Danielyan",
+      "email": "rub1994.13@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "files": [
+      "src/Core/Http/helpers.php"
+    ],
+    "psr-4": {
+      "Core\\": "src/Core"
+    }
+  },
+  "require": {
+    "twig/twig": "2.0",
+    "illuminate/database": "^5.9",
+    "jenssegers/blade": "*"
+  }
+}
